@@ -26,7 +26,29 @@ Me indica el estado de un repositorio
 - que archivos se han modificado
 - Que archivos todavía no existen en un repositorio git
 
+## status
+Me indica el estado del repositorio
+- Rama en la que estoy
+- Commits
+- Archivos que se han modificado
+- Archivos que todavía no existen en el repositorio git
 
+## add
+Añadir los cambios que haya sufrido el directorio de trabajo en el área de “staging”
 
+Puede añadir todos los archivos del directorio de trabajo, o sólo los que yo seleccione. 
 
+Para añadir todo ( > git add . )
 
+Si sólo queremos añadir archivos concretos, debemos poner el nombre del archivo/s después del add separados por espacio
+
+Para añadir concretos >git add demo.md demo.txt
+
+## commit
+Guarda los cambios que haya en el área de “staging” en el repositorio
+
+EL parámetro -m es obligatorio. Sirve para indicar el mensaje del commit (un mensaje que describe que cambio se está haciendo)
+
+ git commit -m “Mi mensaje descriptivo”
+
+Parámetro -a subo todo lo que tengo en el directorio de trabajo en el que me encuentre

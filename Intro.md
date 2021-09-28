@@ -52,3 +52,11 @@ EL parámetro -m es obligatorio. Sirve para indicar el mensaje del commit (un me
  git commit -m “Mi mensaje descriptivo”
 
 Parámetro -a subo todo lo que tengo en el directorio de trabajo en el que me encuentre
+
+
+# HTML
+- usa ! para coger el doctype
+- Utiliza Head unicamente para poner el título y el stylesheet
+- llama al css como link <link rel="stylesheet" href="style.css">
+- todo el contenido va en el body
+- 

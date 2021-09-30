@@ -1,3 +1,20 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.head_nav {
+    position:fixed;
+    width: 960px;;
+    height: 100px;
+    background-image:url(https://unsplash.com/photos/kLfkVa_4aXM);
+  }
+
+.main_1 {
+    margin-top: 200px;
+  }
+
 body {
     display: flex;
     flex-direction: column;
